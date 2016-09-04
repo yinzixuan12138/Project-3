@@ -141,7 +141,7 @@ int a=0;
                     else
                         Sex_Is_Null.setText("性别不能为空！！！");
                     if(Major1==0&&Major2==0&Major3==0)
-                        Major_Is_Null.setText("专业不能为空！！！");
+                        Major_Is_Null.setText("课程不能为空！！！");
                     else
                     { Major_Is_Null.setText("输入成功！！！");
                         if(a==1)
@@ -157,7 +157,7 @@ int a=0;
                 else
                     Sex_Is_Null.setText("性别不能为空！！！");
                 if(Major1==0&&Major2==0&Major3==0)
-                    Major_Is_Null.setText("专业不能为空！！！");
+                    Major_Is_Null.setText("课程不能为空！！！");
                 else                     Major_Is_Null.setText("输入成功！！！");
 
         }
@@ -184,9 +184,6 @@ int a=0;
             }
         });
 
-
-
-        Toast.makeText(MainActivity.this,""+a,Toast.LENGTH_LONG).show();
     }
 
     }

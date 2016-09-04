@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="专业："
+        android:text="课程："
         android:id="@+id/Major"
         android:layout_marginTop="31dp"
         android:layout_below="@+id/Sex"
@@ -156,7 +156,7 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Major_a"
+                android:text="课程1"
                 android:id="@+id/Major_a"
                 android:checked="false"
          />
@@ -164,7 +164,7 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New CheckBox"
+                android:text="课程2"
                 android:id="@+id/Major_b"
                 android:checked="false"
                 android:layout_below="@+id/RodioGroupSex"
@@ -174,7 +174,7 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New CheckBox"
+                android:text="课程3"
                 android:id="@+id/Major_c"
                 android:checked="false"
                 android:layout_below="@+id/Major"
